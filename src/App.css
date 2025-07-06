@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/* Make entire page dark */
+body {
+  background-color: #000; /* Black background for page */
+  color: #f8f9fa; /* Light text by default */
+}
+
+/* Make the form container stand out on dark */
+.container {
+  background-color: #1a1a1a; /* Dark gray */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+/* Form labels and text */
+label {
+  color: #f8f9fa;
+}
+
+/* Input text color */
+input, select, textarea {
+  background-color: #333;
+  color: #f8f9fa;
+  border: 1px solid #555;
+}
+
+/* Placeholder text style */
+input::placeholder,
+textarea::placeholder {
+  color: #bbbbbb; /* Light gray */
+  opacity: 1;  /* Fully opaque */
+}
+
+/* Make checkboxes and radios visible */
+.form-check-label {
+  color: #f8f9fa;
+}
+
+/* Adjust buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/* Table styling for history */
+.table {
+  background-color: #222;
+  color: #f8f9fa;
+}
+
+.table a {
+  color: #0d6efd;
+}
