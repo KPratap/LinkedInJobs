@@ -84,7 +84,6 @@ const App = () => {
   };
   document.body.style.backgroundColor = '#000';
   const geoId = geoIdMap[location] || '103644278';
-  const geoPart = useGeoId ? `&geoId=${geoId}` : '';
   const workTypeMap = {
     1: 'On-site',
     2: 'Remote',
